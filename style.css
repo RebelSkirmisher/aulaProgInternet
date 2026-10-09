@@ -1,0 +1,12 @@
+#textocomid {
+    color: #8315dd;
+}
+
+.textocomclasse {
+    color: rgb(0, 136, 43);
+}
+
+/**esse não funciona porque já existe css definindo p no arquivo, oq leva prioridade sobre arquivos externos **/
+P {
+    color: #8315dd;
+}
