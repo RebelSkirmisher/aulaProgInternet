@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            /** regra CSS **/
+            p{
+                font-size: 12pt;
+                color: firebrick;
+            }
+            li:hover {
+                color: #d2f700;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>CSS</h1>
+        <p>Linguagem DECLARATIVA auxiliar ao HTML, pode ser declarada de 3
+            maneiras principais:</p>
+        <ol>
+            <li>tag &ltstyle&gt definida no head do documento</li>
+            <li>em um documento externo (.css), por meio da tag link</li>
+            <li>inline</li>
+        </ol>
+        <p style="color: black;">Mais texto para mostrar hierarquia do css:
+            inline, tag style e documento externo</p>
+        <p id="textocomid"> mais texto ainda, tag p com id, CSS com id
+            sobrescreve tudo (menos style inline)</p>
+        <p class="textocomclasse"> elementos tambem podem ser definidos por
+            classe, sobrescreve css que não é inline ou que origina de id</p>
+    </body>
+</html>
